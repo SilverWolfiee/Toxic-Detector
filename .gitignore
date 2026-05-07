@@ -1,0 +1,6 @@
+# Ignore large data directories
+data/processed/train_cleaned.csv
+datasets/train.csv
+
+# Specifically ignore large model weights just in case
+models/*.pt

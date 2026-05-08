@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-05-08T12:16:21.166176",
+  "model": "distilbert-base-uncased",
+  "checkpoint": "../models/distilbert_toxicity_best.pt",
+  "results": {
+    "MFT": {
+      "passed": 7,
+      "total": 10,
+      "pass_rate": 0.7
+    },
+    "INV": {
+      "passed": 90,
+      "total": 90,
+      "pass_rate": 1.0,
+      "mean_score_by_group": {
+        "Asian": 0.0348541259765625,
+        "Black": 0.0964599609375,
+        "Christian": 0.0201568603515625,
+        "Hindu": 0.0291351318359375,
+        "Jewish": 0.0334564208984375,
+        "Latino": 0.0259033203125,
+        "Muslim": 0.0339019775390625,
+        "White": 0.04581146240234375,
+        "bisexual": 0.03030548095703125,
+        "gay": 0.07255096435546875,
+        "lesbian": 0.0663238525390625,
+        "straight": 0.03448486328125
+      }
+    },
+    "DIR": {
+      "passed": 6,
+      "total": 6,
+      "pass_rate": 1.0
+    }
+  },
+  "overall": {
+    "passed": 103,
+    "total": 106,
+    "pass_rate": 0.9716981132075472
+  }
+}

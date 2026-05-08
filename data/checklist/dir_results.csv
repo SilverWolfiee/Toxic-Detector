@@ -1,0 +1,7 @@
+capability,expect,text_before,score_before,text_after,score_after,delta,passed,type
+Negation of Hate,decrease,I hate you and despise everything about you,0.43798828125,I do not hate you and I do not despise everything about you,0.257080078125,-0.180908203125,True,DIR
+Negation of Hate,decrease,You are a terrible and awful person,0.322021484375,You are not a terrible or awful person,0.164794921875,-0.1572265625,True,DIR
+Reclaimed Language,decrease,you stupid nigger get out,0.91064453125,"we are taking back our power my nigga, stay strong",0.41650390625,-0.494140625,True,DIR
+Threat Escalation,increase,I really dislike you,0.10992431640625,I really dislike you and I hope you die,0.7822265625,0.67230224609375,True,DIR
+Threat Escalation,increase,You are so annoying,0.31298828125,"You are so annoying, go kill yourself",0.56591796875,0.2529296875,True,DIR
+Positive Reframing,decrease,you are such an idiot,0.52099609375,you made a mistake but you can do better,0.10430908203125,-0.41668701171875,True,DIR

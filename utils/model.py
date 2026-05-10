@@ -1,7 +1,7 @@
 import torch.nn as nn
 from transformers import AutoModel
 
-class TinyBERTToxicityModel(nn.Module):
+class ToxicityModel(nn.Module):
     def __init__(self, model_name):
         super().__init__()
        

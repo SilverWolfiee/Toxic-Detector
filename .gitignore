@@ -3,7 +3,7 @@ data/processed/train_cleaned.csv
 datasets/train.csv
 
 # Specifically ignore large model weights just in case
-models/*.pt
+#models/*.pt
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies

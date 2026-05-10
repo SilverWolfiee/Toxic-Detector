@@ -4,7 +4,7 @@ import torch
 from transformers import AutoTokenizer
 import sys
 sys.path.append('../')
-from utils.model import TinyBERTToxicityModel
+from utils.model import ToxicityModel
 
 app      = FastAPI()
 DEVICE   = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -12,7 +12,7 @@ MAX_LEN  = 64
 MODEL_NAME = "distilbert-base-uncased"
 
 
-model = TinyBERTToxicityModel(MODEL_NAME).to(DEVICE)
+model = ToxicityModel(MODEL_NAME).to(DEVICE)
 model.load_state_dict(torch.load(
     "../models/distilbert_toxicity_best.pt",
     map_location=DEVICE, weights_only=True

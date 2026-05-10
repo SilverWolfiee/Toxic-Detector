@@ -1,0 +1,11 @@
+{
+  "name": "chatguard-api",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "@elysiajs/cors": "latest"
+  }
+}

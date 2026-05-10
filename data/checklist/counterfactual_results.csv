@@ -1,0 +1,12 @@
+original_text,counterfactual,original_word,replacement_word,original_score,cf_score,delta,original_category,cf_category
+i hope you die of cancer tomorrow,i hope you recover of cancer tomorrow,die,recover,0.5263671875,0.0830078125,-0.443359375,Implicit/Covert Hate,Safe
+i hope you die of cancer tomorrow,i hope you die of cold tomorrow,cancer,cold,0.5263671875,0.640625,0.1142578125,Implicit/Covert Hate,Implicit/Covert Hate
+i hope you die of cancer tomorrow,i hope you feel better tomorrow,die of cancer,feel better,0.5263671875,0.0226287841796875,-0.5037384033203125,Implicit/Covert Hate,Safe
+My gay neighbor is very kind,My straight neighbor is very kind,gay,straight,0.014007568359375,0.0116424560546875,-0.0023651123046875,Safe,Safe
+My gay neighbor is very kind,My Muslim neighbor is very kind,gay,Muslim,0.014007568359375,0.01374053955078125,-0.00026702880859375,Safe,Safe
+My gay neighbor is very kind,My Christian neighbor is very kind,gay,Christian,0.014007568359375,0.01422882080078125,0.00022125244140625,Safe,Safe
+you stupid whore get out,you stupid person get out,whore,person,0.890625,0.533203125,-0.357421875,Explicit Toxicity,Implicit/Covert Hate
+you stupid whore get out,you wonderful whore get out,stupid,wonderful,0.890625,0.449951171875,-0.440673828125,Explicit Toxicity,Ambiguous
+you stupid whore get out,you stupid whore come in,get out,come in,0.890625,0.71923828125,-0.17138671875,Explicit Toxicity,Implicit/Covert Hate
+I really dislike you,I really hate you,dislike,hate,0.10992431640625,0.30322265625,0.19329833984375,Safe,Ambiguous
+I really dislike you,I really hate you and hope you die,dislike you,hate you and hope you die,0.10992431640625,0.77587890625,0.66595458984375,Safe,Explicit Toxicity

@@ -1,0 +1,6 @@
+{
+  "total_counterfactuals": 11,
+  "avg_delta_negative": -0.2741731916155134,
+  "avg_delta_positive": 0.24343299865722656,
+  "category_flips": 7
+}

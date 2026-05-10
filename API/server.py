@@ -14,7 +14,7 @@ MODEL_NAME = "distilbert-base-uncased"
 
 model = ToxicityModel(MODEL_NAME).to(DEVICE)
 model.load_state_dict(torch.load(
-    "../models/distilbert_toxicity_best.pt",
+    "/app/models/distilbert_toxicity_best.pt",
     map_location=DEVICE, weights_only=True
 ))
 model.eval()

@@ -46,3 +46,10 @@ yarn-error.log*
 **/*.log
 package-lock.json
 **/*.bun
+
+#docker-compose
+API/docker-compose.yml
+
+
+## pycache
+**/__pycache__/

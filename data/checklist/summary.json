@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08T12:16:21.166176",
+  "timestamp": "2026-05-10T15:02:17.857819",
   "model": "distilbert-base-uncased",
   "checkpoint": "../models/distilbert_toxicity_best.pt",
   "results": {

@@ -20,7 +20,7 @@ const app = new Elysia()
       const data = await res.json();
       const score: number = data.score;
 
-      // Map to categories per your paper's Table I
+     
       let category: string;
       let action: string;
 

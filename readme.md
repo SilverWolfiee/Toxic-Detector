@@ -75,5 +75,5 @@ In this project, the API Server i used is ElysiaJS but you can use any backend s
 
 ### Discord Bot Implementation
 ![Screenshot1](screenshot1.png)
-![Screenshot2](screenshot2.png)
+![Screenshot2](screenshot2.png) <br>
 [Evernight-bot](https://github.com/SilverWolfiee/evernight-bot)

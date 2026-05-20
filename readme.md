@@ -3,7 +3,7 @@
 The model aims to also detect implicit hate by taking context into consideration utilizing transformer models(DistilBERT)
 
 ## To-Do : 
-1. Finish my paper :>
+1. :)
 
 ## Dataset source : 
 [Kaggle](https://www.kaggle.com/datasets/julian3833/jigsaw-toxic-comment-classification-challenge?select=train.csv)
@@ -12,7 +12,9 @@ The model aims to also detect implicit hate by taking context into consideration
 ## Notes
 The project has concluded, However if you have a new suggestion on how to improve the model you can always open a pull request/issue to further improve the accuracy of the toxic detection.
 
+This project is aimed to create an API anyone can use for their toxicity moderation. 
 
+In this project, the API Server i used is ElysiaJS but you can use any backend server to call to model with a FAST API bridge
 
 ## Project Structure
 ```
@@ -69,3 +71,9 @@ The project has concluded, However if you have a new suggestion on how to improv
 
 
 
+## Result Example
+
+### Discord Bot Implementation
+![Screenshot1](screenshot1.png)
+![Screenshot2](screenshot2.png)
+[Evernight-bot](https://github.com/SilverWolfiee/evernight-bot)
